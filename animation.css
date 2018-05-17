@@ -1,0 +1,34 @@
+/* The animation code */
+
+@keyframes
+triangle {
+	from {
+		background-color: lawngreen;
+	}
+	to {
+		background-color: deepskyblue;
+	}
+}
+
+div {
+	width: 0;
+	height: 0;
+	border-bottom: 80px solid yellow;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
+
+/* The element to apply the animation to */
+
+#triangle {
+	animation-name: triangle;
+	animation-duration: 10s;
+}
+
+#container {
+	width: 500px;
+	height: 400px
+
+
+
+}

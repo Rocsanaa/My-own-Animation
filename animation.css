@@ -1,7 +1,14 @@
 /* The animation code */
+#container {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	background-color: peachpuff;
+	border-style: groove;
 
-@keyframes
-triangle {
+}
+
+@keyframes triangle {
 	from {
 		background-color: lawngreen;
 	}
@@ -21,14 +28,9 @@ div {
 /* The element to apply the animation to */
 
 #triangle {
+	position: absolute;
 	animation-name: triangle;
 	animation-duration: 10s;
+	animation-iteration-count: infinite
 }
 
-#container {
-	width: 500px;
-	height: 400px
-
-
-
-}

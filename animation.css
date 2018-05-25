@@ -1,36 +1,21 @@
-/* The animation code */
-#container {
-	width: 400px;
-	height: 400px;
-	position: relative;
-	background-color: peachpuff;
-	border-style: groove;
+@keyframes html, body {
 
 }
 
-@keyframes triangle {
-	from {
-		background-color: lawngreen;
-	}
-	to {
-		background-color: deepskyblue;
-	}
+body {
+background-image: url("C:/Users/rd49373/Desktop/download.jpg");
+
+}
+
+p{
+	padding: 2em;
+	font-family: monospace;
+	font-size: 3em;
+
 }
 
 div {
-	width: 0;
-	height: 0;
-	border-bottom: 80px solid yellow;
-	border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
-}
-
-/* The element to apply the animation to */
-
-#triangle {
-	position: absolute;
-	animation-name: triangle;
-	animation-duration: 10s;
-	animation-iteration-count: infinite
+		width: 70%;
+		margin: auto;
 }
 

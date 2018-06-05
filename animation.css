@@ -1,21 +1,63 @@
-@keyframes html, body {
-
+@keyframes text {
+	from {
+		background-color: darkslateblue;
+	}
+	to {
+		background-color: darkolivegreen;
+	}
 }
 
-body {
-background-image: url("C:/Users/rd49373/Desktop/download.jpg");
-
-}
-
-p{
+p {
 	padding: 2em;
 	font-family: monospace;
 	font-size: 3em;
+	border-bottom-color: aqua;
 
 }
 
 div {
-		width: 70%;
-		margin: auto;
+	animation-name: text;
+	animation-duration: inifnite;
 }
 
+@keyframes triangles {
+	0% {
+		left: 0px;
+		top: 0px;
+	}
+	25% {
+		left: 30px;
+		top: 0px;
+	}
+	50% {
+		left: 100px;
+		top: 100px;
+	}
+	75% {
+		left: 0px;
+		top: 100px;
+	}
+	100% {
+		left: 0px;
+		top: 0px;
+	}
+}
+
+div {
+	height: 0;
+	width: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+
+	border-bottom: 30px solid black;
+	position: center;
+}
+
+#traingles {
+	animation-name: triangles;
+	animation-duration: 10s;
+	animation-direction: forwards;
+
+
+
+}

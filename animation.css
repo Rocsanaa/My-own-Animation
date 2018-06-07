@@ -20,28 +20,7 @@ div {
 	animation-duration: inifnite;
 }
 
-@keyframes triangles {
-	0% {
-		left: 0px;
-		top: 0px;
-	}
-	25% {
-		left: 30px;
-		top: 0px;
-	}
-	50% {
-		left: 100px;
-		top: 100px;
-	}
-	75% {
-		left: 0px;
-		top: 100px;
-	}
-	100% {
-		left: 0px;
-		top: 0px;
-	}
-}
+@keyframes triangles {}
 
 div {
 	height: 0;
@@ -55,9 +34,13 @@ div {
 
 #traingles {
 	animation-name: triangles;
-	animation-duration: 10s;
 	animation-direction: forwards;
+	top: 0px;
+	left: 0px;
+}
 
-
+#container {
+	border-style: dashed;
+	position: relative;
 
 }
